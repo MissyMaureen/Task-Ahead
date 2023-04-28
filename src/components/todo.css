@@ -1,0 +1,78 @@
+.todo{
+    border: 1.5px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 80vw;
+    height: fit-content;
+    margin-top: 30px;
+    
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    border-bottom: 1px solid;ruby-merge: ;
+
+}
+.topleft{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.topleft span{
+    padding: 5px;
+    background-color: grey;
+    color: white;
+    border-radius: 50%;
+}
+
+.topright p{
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+
+.card{
+    border: 2px solid blueviolet;
+    width: 95%;
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border-left: 5px solid blueviolet;
+}
+
+.card-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.btn{
+    background-color: blueviolet;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    border: 2px solid blueviolet;
+    cursor: pointer;
+    transition: ease 750ms;
+}
+
+.btn:hover{
+    background-color: white;
+    color: blueviolet;
+}
+
+.bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+

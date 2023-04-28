@@ -1,0 +1,57 @@
+header{
+    margin-top: 20px;
+    border: 3px solid white;
+    padding: 0.5em 2em;
+    border-radius: 10px;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    background-color: rgb(93, 92, 96);
+
+}
+
+.theme{
+    display: flex;
+    gap: 10px;
+
+}
+
+.theme span{
+    height: 20px;
+    width: 20px;
+    border: 1px grey solid;
+    border-radius: 50%;
+
+}
+
+.dark{
+    background-color: rgb(3, 3, 11);
+    color: rgb(197, 197, 197);
+    transition: all 750ms;
+}
+
+.light{
+    background-color: cyan;
+    color: rgb(57, 56, 56);
+    transition: all 750ms;
+}
+
+.pepper{
+    background-color: rgb(238, 58, 58);
+    color: rgb(197, 197, 197);
+    transition: all 750ms;
+}
+
+.gOne{
+    background: linear-gradient( to bottom, rgb(46, 17, 239), rgb(228, 3, 3) );
+    color: white;
+    transition: all 750ms;
+    height: 100vh;
+}
+
+.gTwo{
+    background: linear-gradient( 270deg, rgb(46, 17, 239), rgb(228, 3, 3) );
+    color: white;
+    transition: all 750ms;
+}
